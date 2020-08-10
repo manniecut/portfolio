@@ -142,6 +142,27 @@ h2, p, ul, ol, iframe {
     text-align: center
 }
 
+/* Form Design */
+
+form {
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 20px;   
+}
+
+form textarea {
+    height: 160px;
+}
+
 
 linkstyle:link    {color: rgb(0, 63, 146);}
 linkstyle:visited {color: rgb(0, 226, 226);}
@@ -187,23 +208,3 @@ linkstyle:active  {color: rgb(0, 226, 132);}
     }
 }
 
-/* Form Design */
-
-form {
-    padding: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-form input, form textarea {
-    width: 100%;
-    margin-bottom: 20px;   
-}
-
-form textarea {
-    height: 160px;
-}
