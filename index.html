@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<!-- Welcome to my HTML script -->
+<!-- 
+Assignment
+Use the skills you’ve learned in this module to create your portfolio using flexbox and media queries.
 
+Code Requirements
+
+Create a page layout using flexbox.
+Implement appropriate media queries for responsive design.
+Utilize semantic, valid markup
+Build your page from scratch (no template usage)
+Detail and quality requirements
+
+Page should not have typos and should offer content clarity and readability
+Page Content Requirements
+
+
+    
+-->
+<html>
+  <head>
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width">
+	  <title>Mannie Cut's Portfolio</title>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+	  <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+       <div> <h1>Mannie Cutean</h1>
+        <h3>Audio Engineer & Software Developer</h3>
+        </div>
+      <nav>
+          <ul>
+              <li><a href = "#about-me">About</a></li>
+              <li><a href = "#development-projects">Projects</a></li>
+              <li><a href = "#audio-projects">Audio</a></li>
+              <li><a href = "#contact-me">Contact</a></li>
+          </ul>
+      </nav>
+    </header>
+    <!-- Intro section starts here -->
+    <main>
+    <section>
+        <img src="./images/mannie-in-studio-cropped.png" alt="Mannie in studio"><br>
+        <h2>Welcome to my portfolio!</h2>
+        <p>I am a student at Thinkful with an Audio Engineering background. I have professional sound design and recording studio experience, great for projects that use audio elements.
+        </p>
+    </section>
+      <hr>
+
+
+      <article id = "about-me">
+      <h2>About Mannie</h2>
+      <!--
+      About Me section:
+      -----demonstrate your passion for the web
+      -----demonstrate desire to work on a team with great programmers
+      -----show your personality outside of coding
+      -----List of services you can (or want to) provide a client. -->
+      <p>I started as a music producer <strong>creating custom instrumentals, and recording, mixing, and mastering</strong> records for clients.
+          After realizing the way my mind worked was better suited for something more technical, I decided to bend my career path towards <strong>web and software development</strong>. 
+          It's awesome so far and I'm excited to get into the field and onto an awesome team. 
+          Outside of these things I also enjoy building and flying FPV drones, traveling and virtual reality. 
+          I would love to work on <strong>Web VR/XR</strong> experiences that would combine my web development skills with my audio skills and VR. 
+      </p>
+      <p>
+        If you're looking to hire a developer with professional audio experience, please <a href="#contact-me">let me know!</a> My technical capabilities ensure solid results 
+        and the attention to detail and the golden ears I've cultivated in the audio realm are like none other!
+      </p>
+      </article>
+      <hr>
+
+      <article id = "development-projects">
+          <h2>Development Projects</h2>
+          <!-- Sample project listing
+            -----Title of the project
+            -----Description that explains what the app does, who it's for, why you built it.
+            -----Skills used (what is the stack)
+            -----(Optional) Screenshot that presents the app appropriately - may be a placeholder - the actual image does not -----really matter.
+            -----Link to the GitHub repo of the project
+            -----Link to live, working app -->
+            <section>
+                <div class = "group">
+                    <div class = "item">
+                    <h3>My Sample Project</h3>
+                    <img src="./images/pixel2.png" alt="android">
+                    <p>
+                        This is my sample app listing. It represents a project that I will complete in the future. This will use full stack javascript combined with HTML
+                        and CSS.
+                    </p>
+                    <ul>
+                        <li><a href="#">GitHub Repository</a></li>
+                        <li><a href="#">Direct Link to App</a></li>
+                    </ul>
+                    </div>
+                    <div class = "item">
+                    <h3>My Other Sample Project</h3>
+                    <img src="./images/iphone.png" alt="iphone">
+                    <p>
+                        This is my other sample app. It represents a project that I will complete in the future. This will also use full stack javascript combined with HTML
+                        and CSS.
+                    </p>
+                    <ul>
+                        <li><a href="#">GitHub Repository</a></li>
+                        <li><a href="#">Direct Link to App</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </section>
+
+      </article>
+      <hr>
+
+
+      <article id = "audio-projects">
+          <h2>Audio Work</h2>
+            <section>
+                <div class = "group">
+                    <div class = "item">
+                        <h3>My Personal Creations</h3>
+                        <iframe src="https://open.spotify.com/embed/album/6jNVZQNFc3qAUQaSGM5kQ4" width="300" height="380" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class = "item">
+                        <h3>Creations for My Clients</h3>
+                        <iframe src="https://open.spotify.com/embed/playlist/45A5odscR8ZShQA10h2dE6" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+            </section>
+      </article>
+      <hr>
+
+      <article id = "contact-me">
+        <h2>Contact Mannie</h2>
+            <p>If you want to reach out I'd love to talk! Here are three ways:</p>
+                <ul>
+                    <li><a href = "mailto:mcutean@gmail.com"><strong><linkstyle>Email</linkstyle></strong></a></li>
+                    <li><a href = "https://www.linkedin.com/in/c-mannie-cutean-2ab59a1b4/"><strong><linkstyle>LinkedIn</linkstyle></strong></a></li>
+                    <li><a href = "https://github.com/manniecut"><strong><linkstyle>GitHub</linkstyle></strong></a></li>
+                </ul>
+      </article>
+
+
+      </main>
+      </body>
+      <footer>
+        <h3>(c) Mannie Cutean 2020</h3>
+      </footer>
+
+</html>
