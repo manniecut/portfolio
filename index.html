@@ -1,7 +1,5 @@
 <!DOCTYPE html>
-<!-- Welcome to my HTML script -->
-<!-- 
-Assignment
+<!-- Assignment
 Use the skills you’ve learned in this module to create your portfolio using flexbox and media queries.
 
 Code Requirements
@@ -19,36 +17,35 @@ Page Content Requirements
     
 -->
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width">
 	  <title>Mannie Cut's Portfolio</title>
 	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
 	  <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+</head>
+<body>
     <header>
-    <div> 
-        <h1>Mannie Cutean</h1>
-        <h3>Audio Engineer & Software Developer</h3>
-    </div>
-      <nav>
+        <div> 
+            <h1>Mannie Cutean</h1>
+            <h3>Audio Engineer & Software Developer</h3>
+        </div>
+        <nav>
           <ul>
               <li><a href = "#about-me">About</a></li>
               <li><a href = "#development-projects">Projects</a></li>
               <li><a href = "#audio-projects">Audio</a></li>
               <li><a href = "#contact-me">Contact</a></li>
           </ul>
-      </nav>
+        </nav>
     </header>
-    <!-- Intro section starts here -->
     <main>
-        <section>
+        <article id = "intro">
             <img src="./images/mannie-in-studio-cropped.png" alt="Mannie in studio"><br>
             <h2>Welcome to my portfolio!</h2>
             <p>I am a student at Thinkful with an Audio Engineering background. I have professional sound design and recording studio experience, great for projects that use audio elements.
             </p>
-        </section>
+        </article>
         <hr>
 
 
@@ -71,6 +68,7 @@ Page Content Requirements
         </p>
         </article>
         <hr>
+
 
         <article id = "development-projects">
             <h2>Development Projects</h2>
@@ -126,25 +124,47 @@ Page Content Requirements
                             <h3>Creations for My Clients</h3>
                             <iframe src="https://open.spotify.com/embed/playlist/45A5odscR8ZShQA10h2dE6" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                         </div>
+                    </div>
                 </section>
         </article>
         <hr>
 
+
         <article id = "contact-me">
             <h2>Contact Mannie</h2>
-                <p>If you want to reach out I'd love to talk! Here are three ways:</p>
-                    <ul>
-                        <li><a href = "mailto:mcutean@gmail.com"><strong><linkstyle>Email</linkstyle></strong></a></li>
-                        <li><a href = "https://www.linkedin.com/in/c-mannie-cutean-2ab59a1b4/"><strong><linkstyle>LinkedIn</linkstyle></strong></a></li>
-                        <li><a href = "https://github.com/manniecut"><strong><linkstyle>GitHub</linkstyle></strong></a></li>
-                    </ul>
+            <p>If you want to reach out I'd love to talk! Here are four ways.</p>
+            <section>
+                <div class = "group">
+                    <div class = "item-double">
+                        <form action = "https://formspree.io/xjvazwkj" method="POST">
+                            <label for="user name">Name:</label>
+                            <input id="user-name" type="text" name="name">
+
+                            <label for="user-email">Email:</label>
+                            <input id="user-email" type="text" name="email" required>
+
+                            <label for="user-message">Message:</label>
+                            <textarea id="user-message" type="text" name="message"></textarea>
+
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class = "item">
+                        <ul>
+                            <li><a href = "mailto:mcutean@gmail.com"><strong><linkstyle>Email</linkstyle></strong></a></li>
+                            <li><a href = "https://www.linkedin.com/in/c-mannie-cutean-2ab59a1b4/"><strong><linkstyle>LinkedIn</linkstyle></strong></a></li>
+                            <li><a href = "https://github.com/manniecut"><strong><linkstyle>GitHub</linkstyle></strong></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        <!-- adding submission form below this comment-->
         </article>
 
 
-      </main>
-      </body>
-      <footer>
+    </main>
+</body>
+<footer>
         <h3>(c) Mannie Cutean 2020</h3>
-      </footer>
-
+</footer>
 </html>

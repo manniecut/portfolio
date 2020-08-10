@@ -130,6 +130,14 @@ h2, p, ul, ol, iframe {
     justify-content: center;
 }
 
+.item-double{
+    margin: 10px;
+    flex: 2;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+}
+
 .item-spotify {
     text-align: center
 }
@@ -177,4 +185,25 @@ linkstyle:active  {color: rgb(0, 226, 132);}
         margin-right: 20%;
         justify-content: center;
     }
+}
+
+/* Form Design */
+
+form {
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 20px;   
+}
+
+form textarea {
+    height: 160px;
 }
