@@ -107,6 +107,9 @@ main section {
 
 iframe {
     justify-content: center;
+    width: 300px;
+    height: 380px;
+    border: 0;
 }
 
 h2, p, ul, ol, iframe {
