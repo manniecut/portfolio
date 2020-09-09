@@ -199,9 +199,15 @@ linkstyle:active {
     header nav ul li a:hover {
         color: #dbdbdb;
     }
-    img {
+    main article img {
         width: 60%;
     }
+
+    .item img {
+        height: 467px;
+        width: 321px;
+    }
+
     h2, p, iframe, img, ul, ol {
         margin-left: 20%;
         margin-right: 20%;
