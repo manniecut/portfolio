@@ -26,13 +26,13 @@
         </nav>
     </header>
     <main>
-        <article id="intro" class="my_photo">
+        <div id="intro" class="my_photo">
             <div class="introduction">
                 <p class="intro__text">I'm a web developer living in the Metro Detroit Area and I'm looking for a
                     way to use my skills to help make the world a better place.
                 </p>
             </div>
-        </article>
+        </div>
 
         <article id="about-me" class="darkened__article">
             <h2>About Mannie</h2>
@@ -62,7 +62,8 @@
                         <li><a href="https://github.com/manniecut/recycl-client" target="_blank">GitHub Repository</a></li>
                         <li><a href="https://recycl.vercel.app" target="_blank">Direct Link to App</a></li>
                     </ul>
-                    <ul class='technologies'><h4>Technologies:</h4>
+                    <h4>Technologies:</h4>
+                    <ul class='technologies'>
                         <li>HTML & CSS</li>
                         <li>Node & Express</li>
                         <li>PostgreSQL</li>
@@ -81,7 +82,8 @@
                         <li><a href="https://github.com/manniecut/EZ-Trakr" target="_blank">GitHub Repository</a></li>
                         <li><a href="https://manniecut.github.io/EZ-Trakr/" target="_blank">Direct Link to App</a></li>
                     </ul>
-                    <ul class='technologies'><h4>Technologies:</h4>
+                    <h4>Technologies:</h4>
+                    <ul class='technologies'>
                         <li>Packing Tracking API from RapidAPI</li>
                         <li>Google Maps Embed API</li>
                         <li>Local Storage API</li>
@@ -93,6 +95,7 @@
                     <h3>GutHub</h3>
                     <img src="./images/guthub.png" alt="GutHub">
                     <p>
+                        As I learned to cook for myself more, I found that it's not always easy to come up with ideas day after day.
                         This is an app for people that just want a simple way to keep their recipes in one place, and also
                         share them with people they might be living or coordinating meals with, to keep everyone on the same page. 
                     </p>
@@ -100,7 +103,8 @@
                         <li><a href="https://github.com/manniecut/gut-hub" target="_blank">GitHub Repository</a></li>
                         <li><a href="https://gut-hub.vercel.app/" target="_blank">Direct Link to App</a></li>
                     </ul>
-                    <ul class='technologies'><h4>Technologies:</h4>
+                    <h4>Technologies:</h4>
+                    <ul class='technologies'>
                         <li>HTML & CSS</li>
                         <li>Node & Express</li>
                         <li>PostgreSQL</li>
@@ -112,7 +116,7 @@
 
         <article id="audio-projects" class="darkened__article">
             <h2>Audio Work</h2>
-            <section class="group">
+            <div class="group">
                 <div class="item item-spotify">
                     <h3>My Personal Creations</h3>
                     <iframe src="https://open.spotify.com/embed/album/6jNVZQNFc3qAUQaSGM5kQ4"
@@ -123,7 +127,7 @@
                     <iframe src="https://open.spotify.com/embed/playlist/45A5odscR8ZShQA10h2dE6"
                         allow="encrypted-media"></iframe>
                 </div>
-            </section>
+            </div>
         </article>
 
         <article id="contact-me">
@@ -132,13 +136,13 @@
             <section class="group">
                 <div class="item-double">
                     <form action="https://formspree.io/xjvazwkj" method="POST">
-                        <label htmlFor="user-name">Name:</label>
+                        <label for="user-name">Name:</label>
                         <input id="user-name" type="text" name="name">
 
-                        <label htmlFor="user-email">Email:</label>
+                        <label for="user-email">Email:</label>
                         <input id="user-email" type="text" name="email" required>
 
-                        <label htmlFor="user-message">Message:</label>
+                        <label for="user-message">Message:</label>
                         <textarea id="user-message" name="message"></textarea>
 
                         <button type="submit">Submit</button>
