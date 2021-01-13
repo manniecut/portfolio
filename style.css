@@ -14,12 +14,6 @@ header h1 {
     padding-top: 20px;
 }
 
-header h2 {
-    text-align: center;
-    margin: 0;
-    padding-top: 20px;
-    color: white;
-}
 
 header nav {
     display: flex;
@@ -64,6 +58,13 @@ h3, header h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     text-align: center;
+}
+
+header h2 {
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    color: white;
 }
 
 h4 {
