@@ -110,6 +110,7 @@ iframe {
     width: 300px;
     height: 380px;
     border: 0;
+    border-radius: 10px;
 }
 
 h2, p, ul, ol, iframe {
@@ -148,18 +149,49 @@ article {
     margin: 10px;
     flex: 1;
     justify-content: center;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 5px;
 }
 
+.item2 {
+    margin: 10px;
+    flex: 1;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.item2 li {
+    list-style: none;
+}
+
+.item2 a {
+    color: black;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+
 .item img {
-    border: 1px solid lightgray;
+    border: 1px solid rgb(0, 0, 0);
+    height: 50vh;
+    width: auto;
+    margin: auto;
+}
+
+.item a {
+    color: black;
+    font-size: 18px;
 }
 
 .item-double {
     margin: 10px;
     flex: 2;
     justify-content: center;
-    background-color: #000;
-    color: #fff;
+    background-color: rgb(211, 211, 211);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
 }
 
 .item-spotify {
@@ -181,12 +213,21 @@ article {
     padding-top: 5px;
     padding-bottom: 5px;
     margin: auto;
-    background-color: rgba(245, 246, 252, 0.637);
+    background-color: rgba(245, 246, 252, 0.76);
     position: absolute;
     bottom: 0;
     left: 0;   
     text-align: center;
-    font-weight: 600;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.app_links {
+    text-align: center;
+    list-style: none;
+}
+
+.technologies {
+    list-style: square;
 }
 
 /* Form Design */
@@ -268,11 +309,7 @@ linkstyle:active {
         padding-top: 10px;
         padding-left: 150px;
         padding-right: 150px;
-    }
-    .intro__funtext {
-        width: 300px;
-        margin: auto;
-        justify-content: center;
+    
     }
     .intro__text {
         padding: 40px;
@@ -280,5 +317,6 @@ linkstyle:active {
         margin: auto;
         left: 0;
         right: 0;
+        font-weight: 600;
     }
 }
