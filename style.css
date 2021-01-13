@@ -49,7 +49,6 @@ img {
     width: 100%;
 }
 
-
 h1 {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -118,6 +117,25 @@ h2, p, ul, ol, iframe {
     margin-right: 1%;
 }
 
+article {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#intro {
+    padding-top: 0px;
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(0, 60, 226, 0.73)), url("./images/mannie-in-studio-cropped.png");
+    height: 400px;
+    background-attachment: scroll;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.my_photo {
+    position: relative;
+}
+
 /* Groups and Items */
 
 .group {
@@ -132,6 +150,10 @@ h2, p, ul, ol, iframe {
     justify-content: center;
 }
 
+.item img {
+    border: 1px solid lightgray;
+}
+
 .item-double {
     margin: 10px;
     flex: 2;
@@ -142,6 +164,29 @@ h2, p, ul, ol, iframe {
 
 .item-spotify {
     text-align: center
+}
+
+.darkened__article {
+    background-color: lightgray;
+}
+
+.introduction {
+    padding: 0px
+}
+
+
+.intro__text {
+    display: block;
+    padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    background-color: rgba(245, 246, 252, 0.637);
+    position: absolute;
+    bottom: 0;
+    left: 0;   
+    text-align: center;
+    font-weight: 600;
 }
 
 /* Form Design */
@@ -199,23 +244,41 @@ linkstyle:active {
     header nav ul li a:hover {
         color: #dbdbdb;
     }
-    main article img {
+    /*main article img {
         width: 60%;
-    }
-
-    .item img {
-        height: 467px;
-        width: 321px;
-    }
-
-    h2, p, iframe, img, ul, ol {
+    }*/
+    /*.item img {
+        margin: auto;
+    }*/
+    /*h2, p, iframe, img, ul, ol {
         margin-left: 20%;
         margin-right: 20%;
-    }
+    }*/
     .group {
         flex-direction: row;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 3%;
+        margin-right: 3%;
+        justify-content: space-between;
+    }
+    article {
+        padding: 20px;
+        padding-bottom: 40px;
+    }
+    .introduction {
+        padding-top: 10px;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .intro__funtext {
+        width: 300px;
+        margin: auto;
         justify-content: center;
+    }
+    .intro__text {
+        padding: 40px;
+        background-color: rgba(245, 246, 252, 0.52);
+        margin: auto;
+        left: 0;
+        right: 0;
     }
 }

@@ -14,7 +14,7 @@
     <header>
         <div>
             <h1>Mannie Cutean</h1>
-            <h3>Audio Engineer & Software Developer</h3>
+            <h3>Full Stack Web Developer / Audio Engineer</h3>
         </div>
         <nav>
             <ul>
@@ -26,43 +26,34 @@
         </nav>
     </header>
     <main>
-        <article id="intro">
-            <img src="./images/mannie-in-studio-cropped.png" alt="Mannie in studio"><br>
-            <h2>Welcome to my portfolio!</h2>
-            <p>I am a student at Thinkful with an Audio Engineering background, located in the Metro Detroit Area. I
-                have professional sound design and recording studio experience, great for projects that require the use
-                of audio elements.
-            </p>
+        <article id="intro" class="my_photo">
+            <!--img src="./images/mannie-in-studio-cropped.png" alt="Mannie in studio" class="my_photo"-->
+            <div class="introduction">
+                <p class="intro__text">I'm a web developer living in the Metro Detroit Area and I'm looking for a
+                    way to use my skills to help make the world a better place.
+                </p>
+            </div>
         </article>
-        <hr>
 
-
-        <article id="about-me">
+        <article id="about-me" class="darkened__article">
             <h2>About Mannie</h2>
-            <p>I started as a music producer <strong>creating custom instrumentals, and recording, mixing, and
-                    mastering</strong> records for clients.
-                After realizing my mind was better suited for something more technical, I decided to bend my career path
-                towards <strong>web and software development</strong>.
-                It's awesome so far and I'm excited to get into the field and onto an awesome team.
-                Outside of these things I also enjoy building and flying FPV drones, traveling and virtual reality.
-                I would love to work on <strong>Web VR/XR</strong> experiences that combine my coding skills with my
-                audio skills and VR.
+            <p>
+                I have an <strong>audio engineering background</strong> and since 2017, I have done professional and
+                freelance work for clients in a local recording studio.
+                More recently, I'm expressing my <strong>passion for technical projects</strong> through programming and
+                a pursuit of a new career in the world of <strong>software development</strong>.
             </p>
             <p>
-                If you're looking to hire a developer with professional audio experience, please <a
-                    href="#contact-me">let me know!</a> My technical capabilities ensure solid results
-                and the attention to detail and the golden ears I've cultivated in the audio realm are like none other!
+                Outside of these things I also enjoy building and flying FPV drones, traveling and virtual reality.
             </p>
         </article>
-        <hr>
-
 
         <article id="development-projects">
             <h2>Development Projects</h2>
             <section class="group">
                 <div class="item">
                     <h3>EZ Trakr</h3>
-                    <img src="./images/EZ-trakr2.png" alt="EZ trakr">
+                    <img src="./images/eztrakr.png" alt="EZ trakr">
                     <p>
                         This is an app that keeps track of all of your packages that are in transit.
                     </p>
@@ -78,25 +69,46 @@
                         <li>HTML & CSS</li>
                     </ul>
                 </div>
-                <!--div class="item">
-                    <h3>My Other Sample Project</h3>
-                    <img src="./images/iphone.png" alt="iphone">
+                <div class="item">
+                    <h3>Recycl.</h3>
+                    <img src="./images/recycl.png" alt="Recycl">
                     <p>
-                        This is my other sample app. It represents a project that I will complete in the future.
-                        This will also use full stack javascript combined with HTML
-                        and CSS.
+                        This is an app that helps you find places to recycle, as well as scheduling recycling pickups.
                     </p>
                     <ul>
-                        <li><a href="#" target="_blank">GitHub Repository</a></li>
-                        <li><a href="#" target="_blank">Direct Link to App</a></li>
+                        <li><a href="https://github.com/manniecut/recycl-client" target="_blank">GitHub Repository</a></li>
+                        <li><a href="https://recycl.vercel.app" target="_blank">Direct Link to App</a></li>
                     </ul>
-                </div-->
+                    <ul>This utilizes:
+                        <li>HTML & CSS</li>
+                        <li>Node & Express</li>
+                        <li>PostgreSQL</li>
+                        <li>React</li>
+                        <li>Google Maps Embed API</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>GutHub</h3>
+                    <img src="./images/guthub.png" alt="GutHub">
+                    <p>
+                        This is an app with the goal of making recipe sharing and meal coordination as simple as
+                        possible
+                    </p>
+                    <ul>
+                        <li><a href="https://github.com/manniecut/gut-hub" target="_blank">GitHub Repository</a></li>
+                        <li><a href="https://gut-hub.vercel.app/" target="_blank">Direct Link to App</a></li>
+                    </ul>
+                    <ul>This utilizes:
+                        <li>HTML & CSS</li>
+                        <li>Node & Express</li>
+                        <li>PostgreSQL</li>
+                        <li>React</li>
+                    </ul>
+                </div>
             </section>
         </article>
-        <hr>
 
-
-        <article id="audio-projects">
+        <article id="audio-projects" class="darkened__article">
             <h2>Audio Work</h2>
             <section class="group">
                 <div class="item item-spotify">
@@ -111,8 +123,6 @@
                 </div>
             </section>
         </article>
-        <hr>
-
 
         <article id="contact-me">
             <h2>Contact Mannie</h2>
@@ -120,13 +130,13 @@
             <section class="group">
                 <div class="item-double">
                     <form action="https://formspree.io/xjvazwkj" method="POST">
-                        <label for="user-name">Name:</label>
+                        <label htmlFor="user-name">Name:</label>
                         <input id="user-name" type="text" name="name">
 
-                        <label for="user-email">Email:</label>
+                        <label htmlFor="user-email">Email:</label>
                         <input id="user-email" type="text" name="email" required>
 
-                        <label for="user-message">Message:</label>
+                        <label htmlFor="user-message">Message:</label>
                         <textarea id="user-message" name="message"></textarea>
 
                         <button type="submit">Submit</button>
@@ -151,7 +161,7 @@
 
     </main>
     <footer>
-        <h3>(c) Mannie Cutean 2020</h3>
+        <h3>(c) Mannie Cutean 2021</h3>
     </footer>
 </body>
 
