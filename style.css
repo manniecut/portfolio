@@ -230,6 +230,13 @@ article {
     list-style: square;
 }
 
+button {
+    color:white;
+    background-color: black;
+    border: none;
+    padding: 20px;
+}
+
 /* Form Design */
 
 form {
