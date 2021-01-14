@@ -1,10 +1,95 @@
+html {
+    width: 100%;
+}
+
 body {
     background-color: #000000;
-    margin: 0;
+    margin: auto;
 }
+
+h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: rgb(0, 60, 226);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+
+main {
+    background-color: #ffffff;
+    padding-bottom: 100px;
+    padding-top: 0px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+hr {
+    margin: 50px;
+    padding: 1px;
+    background-color: #000000;
+}
+
+ul, ol {
+    width: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 100px;
+    height: 100px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer h3 {
+    font-size: 12px;
+}
+
+h2, p, ul, ol, iframe {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+article {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.darkened__article {
+    background-color: lightgray;
+}
+
+
+/********** Header & Navigation **********/
 
 header {
     margin-bottom: 40px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header h1 {
@@ -13,7 +98,6 @@ header h1 {
     margin: 0;
     padding-top: 20px;
 }
-
 
 header nav {
     display: flex;
@@ -38,100 +122,16 @@ header nav ul li:last-child a {
     margin-right: 0;
 }
 
-img {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-h1 {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-h2 {
-    color: rgb(0, 60, 226);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h3, header h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    text-align: center;
-}
-
 header h2 {
     text-align: center;
     margin: 0;
     padding-top: 20px;
     color: white;
-}
-
-h4 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
-    text-decoration: underline;
-    margin-bottom: 0;
+    font-size: 20px;
 }
 
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-hr {
-    margin: 50px;
-    padding: 1px;
-    background-color: #000000;
-}
-
-ul, ol {
-    width: 75%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-footer {
-    text-align: center;
-    padding: 100px;
-    height: 100px;
-}
-
-footer h3 {
-    font-size: 12px;
-}
-
-header, footer {
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-main {
-    background-color: #ffffff;
-    padding-bottom: 100px;
-    padding-top: 0px;
-}
-
-main section {
-    padding-top: 0;
-}
-
-iframe {
-    justify-content: center;
-    width: 80vw;
-    height: 380px;
-    border: 0;
-    border-radius: 10px;
-    margin: auto;
-}
-
-h2, p, ul, ol, iframe {
-    margin-left: 1%;
-    margin-right: 1%;
-}
-
-article {
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
+/********** Intro Area **********/
 
 #intro {
     padding-top: 0px;
@@ -145,70 +145,6 @@ article {
 
 .my_photo {
     position: relative;
-}
-
-/* Groups and Items */
-
-.group {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.item {
-    margin: 10px;
-    flex: 1;
-    justify-content: center;
-    background-color: lightgray;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-.item2 {
-    margin: 10px;
-    flex: 1;
-    justify-content: center;
-    padding: 15px;
-    border-radius: 5px;
-}
-
-.item2 li {
-    list-style: none;
-}
-
-.item2 a {
-    color: black;
-    line-height: 40px;
-    font-size: 20px;
-}
-
-.item img {
-    border: 1px solid rgb(0, 0, 0);
-    height: 50vh;
-    width: auto;
-    margin: auto;
-}
-
-.item a {
-    color: black;
-    font-size: 18px;
-}
-
-.item-double {
-    margin: 10px;
-    flex: 2;
-    justify-content: center;
-    background-color: rgb(211, 211, 211);
-    color: rgb(0, 0, 0);
-    border-radius: 20px;
-}
-
-.item-spotify {
-    text-align: center
-}
-
-.darkened__article {
-    background-color: lightgray;
 }
 
 .introduction {
@@ -229,23 +165,102 @@ article {
     border-radius: 20px 20px 0px 0px;
 }
 
+/********** Groups and Items **********/
+
+.group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Project Items */
+
+.item {
+    margin: 10px;
+    flex: 1;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.item p {
+    margin-bottom: 60px;
+}
+
+.item img {
+    border: 1px solid rgb(0, 0, 0);
+    max-height: 50vh;
+    max-width: 100%;
+    width: auto;
+    margin: auto;
+}
+
+.item a {
+    color: black;
+    font-size: 18px;
+}
+
 .app_links {
     text-align: center;
+    position: absolute;
+    bottom: 20px;
     list-style: none;
+    margin: auto;
+    padding-left: 20px;
 }
 
 .technologies {
     list-style: square;
 }
 
-button {
-    color: white;
-    background-color: black;
-    border: none;
-    padding: 20px;
+/* Audio Items */
+
+.item-spotify {
+    text-align: center
 }
 
-/* Form Design */
+iframe {
+    justify-content: center;
+    width: 80vw;
+    height: 380px;
+    border: 0;
+    border-radius: 10px;
+    margin: auto;
+}
+
+/* Contact Items */
+
+.item-double {
+    margin: 10px;
+    flex: 2;
+    justify-content: center;
+    background-color: rgb(211, 211, 211);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.item_contact_links {
+    margin: 10px;
+    flex: 1;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.item_contact_links li {
+    list-style: none;
+}
+
+.item_contact_links a {
+    color: black;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+
+/********** Form Design **********/
 
 form {
     padding: 30px;
@@ -266,20 +281,11 @@ form textarea {
     height: 160px;
 }
 
-linkstyle:link {
-    color: rgb(0, 63, 146);
-}
-
-linkstyle:visited {
-    color: rgb(0, 226, 226);
-}
-
-linkstyle:hover {
-    color: rgb(0, 154, 226);
-}
-
-linkstyle:active {
-    color: rgb(0, 226, 132);
+button {
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 20px;
 }
 
 @media all and (min-width: 920px) {
