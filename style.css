@@ -14,7 +14,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(0, 43, 160);
+    color: rgb(66, 112, 183);
     font-family: 'Courier New', Courier, monospace;
     font-size: 28px;
     text-align: center;
@@ -149,7 +149,7 @@ header h2 {
 
 #intro {
     padding-top: 0px;
-    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(0, 60, 226, 0.73)), url("./images/mannie-in-studio-cropped.png");
+    background-image: linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(66, 112, 183, 0.73)), url("./images/mannie-in-studio-cropped.png");
     height: 400px;
     background-attachment: scroll;
     background-position: right;
