@@ -151,7 +151,7 @@ header h2 {
     padding-top: 0px;
     background-image: linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(0, 60, 226, 0.73)), url("./images/mannie-in-studio-cropped.png");
     height: 400px;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
