@@ -85,6 +85,10 @@ article {
     padding-bottom: 100px;
 }
 
+#contact-me p {
+    text-align: center;
+}
+
 /********** Header & Navigation **********/
 
 header {
